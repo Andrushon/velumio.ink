@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="https://velumio.ink">
+    <img src="https://img.shields.io/badge/Website-velumio.ink-0055ff?style=for-the-badge" alt="Website">
+  </a>
+  <img src="https://img.shields.io/badge/License-GPLv3-gold?style=for-the-badge" alt="GPLv3 License">
+  <img src="https://img.shields.io/badge/Stage-Alpha-orange?style=for-the-badge" alt="Stage">
+  <img src="https://img.shields.io/badge/Languages-38%20Supported-purple?style=for-the-badge" alt="Languages">
+  <img src="https://img.shields.io/badge/AI-Real--Time%20STT-teal?style=for-the-badge" alt="Real-time STT">
+</p>
+---
 # velumio.ink
 
 This is an open-source project.
