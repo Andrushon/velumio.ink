@@ -8,18 +8,35 @@
   <img src="https://img.shields.io/badge/AI-Real--Time%20STT-teal?style=for-the-badge" alt="Real-time STT">
 </p>
 ---
-# velumio.ink
+# Velumio
 
-This is an open-source project.
+**Velumio** is an open-source, AI-powered reading companion designed to enrich the experience of reading physical paper books. By listening to spoken words in real time, Velumio generates watercolor illustrations and adaptive ambient soundscapes, bridging the tactile charm of print with generative technology.
 
-## About the Project
-An application or website for velumio.ink, built for collaborative development and improvements.
+---
 
-## How to Contribute (Contributing)
-I welcome any contributions and improvements! If you want to add code, fix a bug, or suggest a new feature:
-1. **Fork** this repository to your account.
-2. Create your own branch with your changes.
-3. Submit a **Pull Request** for review.
+## Key Features
+
+- **Real-Time Speech Tracking:** Low-latency Speech-to-Text (STT) that follows along as you read aloud.
+- **Dynamic Watercolor Visuals:** Generates context-aware, evocative illustrations reflecting the narrative mood.
+- **Ambient Soundscapes:** Produces subtle background audio and sound effects synchronized with key story moments.
+- **Multilingual Support:** Architected to support up to 38 languages for diverse reading environments.
+- **Privacy by Design:** Designed without permanent storage of voice recordings or intrusive telemetry.
+
+---
+
+## Architecture Overview
+
+1. **Audio Capture & STT:** High-precision real-time voice streaming and transcription.
+2. **Context Engine:** Extracts narrative beats, tone, and visual cues from the transcribed passage.
+3. **Generative Pipeline:** Dispatches structured prompts to lightweight image and ambient audio generation layers.
+4. **Client Interface:** Clean, distraction-free display optimized for tablets and ambient screens placed alongside physical books.
+
+---
+
+## Contributing
+
+We welcome contributions from developers, designers, and educators. Please review our [CONTRIBUTING.md](./CONTRIBUTING.md) guide before submitting pull requests.
 
 ## License
-This project is licensed under the **GNU GPLv3** free license. You are free to modify and distribute the code, provided that your changes also remain open-source and credit the original authorship.
+
+This project is licensed under the [GNU General Public License v3.0 (GPLv3)](./LICENSE).
